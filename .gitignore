@@ -1,0 +1,21 @@
+# Python Stuff
+bin
+build
+dist
+include
+lib
+venv
+*.pyc
+*.swp
+*.egg-info
+*.egg/*
+*.eggs/*
+*venv*
+__pycache__
+
+# IDE stuff
+tags
+
+# Database files
+*.sqlite3
+*.db
