@@ -106,7 +106,7 @@ class Gaus1D(object):
         KL = math.log(sig_2/sig_1) + (sig_1**2+(mu_1-mu_2)**2)/(2*sig_2**2) - 0.5
         return KL
 
-def gaus_1D_from_json(json_string)
+def gaus_1D_from_json(json_string):
     '''Create a Gaus1D object from a json string'''
     try:
         obj = json.loads(json_string)

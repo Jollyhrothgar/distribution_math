@@ -81,6 +81,7 @@ class Multinomial(object):
             except:
                 KeyError("No label {} exists for Multinomial".format(i))
         if lookup_i not in range(self.size):
+            raise ValueError("Multinomial lookup out of range. Asked for {}, maps to {}, but possible index range is [0:{})".format(i,lookup_i,self.size))
         return lookup_i
 
     def _set_p(self,i,p):

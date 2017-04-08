@@ -7,8 +7,7 @@ setup(
       description='A library designed to do bayesian statistics using distributions',
       author_email='michael.beaumier@gmail.com',
       url='http://github.com/Jollyhrothgar/distribution_math',
-      packages = ['distribution_math', 'distribution_math.distributions']
-      package_data={'NTG6': ['testdata/*']},
+      packages = ['distribution_math'],
       classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
